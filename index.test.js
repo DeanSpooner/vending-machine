@@ -18,8 +18,4 @@ describe('getChange', () => {
         let result = [200, 100, 50, 20, 10, 5, 2, 1];
         expect(getChange(12, 400)).toEqual(result);
     });
-    // it('has a ports property', () => {
-
-    //     expect(thisList.ports).toEqual([liverpool, newYork]);
-    // });
 });
